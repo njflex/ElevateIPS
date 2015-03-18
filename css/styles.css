@@ -49,6 +49,10 @@ body {
   font-style:normal;
 }
 
+nav ul {
+  list-style: none;
+}
+
 
 /* USe if needed 
 .layout {
