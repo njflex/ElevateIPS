@@ -6,7 +6,7 @@
 #2A26FF     rgb(42, 38, 255)  MELLOW ORANGE
 #FF5628     rgb(255, 86, 40)  VIBRANT BLUE
 #646266     rgb(100, 98, 102)  DULL GRAY
-#7B798F     rgb(123, 121, 143) LIGHT BLUE GREY
+#7B798F     rgb(123, 121, 143) BLUE GREY*/
 
 
 /*Fonts*/
@@ -38,6 +38,15 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, hg
 
 html {
   background: rgb(123, 121, 143);
+}
+
+body {
+  font: 100% , Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  color: rgb(76, 67, 65);
+  font-weight:normal;
+  font-style:normal;
 }
 
 
