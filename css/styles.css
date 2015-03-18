@@ -4,8 +4,9 @@
 
 /* ElevateIPS color palette
 #2A26FF     rgb(42, 38, 255)  MELLOW ORANGE
-#FF5628     rgb(255, 86, 40)
-#646266      rgb(100, 98, 102)  DULL GRAY
+#FF5628     rgb(255, 86, 40)  VIBRANT BLUE
+#646266     rgb(100, 98, 102)  DULL GRAY
+#7B798F     rgb(123, 121, 143) LIGHT BLUE GREY
 
 
 /*Fonts*/
@@ -35,7 +36,9 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, hg
   display: block;
 }
 
-
+html {
+  background: rgb(123, 121, 143);
+}
 
 
 /* USe if needed 
