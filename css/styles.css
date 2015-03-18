@@ -1,3 +1,20 @@
+/* CSS Document */
+
+/*copyright ElevateIPS 2015*/
+
+/* ElevateIPS color palette
+#2A26FF     rgb(42, 38, 255)  MELLOW ORANGE
+#FF5628     rgb(255, 86, 40)
+#646266      rgb(100, 98, 102)  DULL GRAY
+
+*/
+
+
+
+
+
+
+/* USe if needed 
 .layout {
   display: flex;
   min-height: 100vh;
@@ -12,24 +29,26 @@
   flex: 1;
 }
 
-.nav {
-  /* 12em is the width of the columns */
-  flex: 0 0 12em;
-}
-
-.nav {
-  /* put the nav on the left */
-  order: -1;
-}
-
 .layout,
 .layout-body {
   display: flex;
   flex-direction: column;
 }
 
-.nav {
-  order: -1;
+/*Nav Styles*//*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+a {
+    display: block;
+    width: 60px;
 }
 
 @media (min-width: 768px) {
@@ -41,7 +60,7 @@
     flex: 1;
   }
   .nav {
-    /* 12em is the width of the columns */
+    /* 12em is the width of the columns *
     flex: 0 0 12em;
   }
 }
