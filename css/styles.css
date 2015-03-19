@@ -107,7 +107,18 @@ nav a.current {
 
 /*mobile styles*/
 @media only screen and (max-width:480px) {
-  
+
+/*disable text sizing on orientation change*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+  -webkit-text-size-adjust:none;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 480px;
+}
+
 }
 
 /* USe if needed 
