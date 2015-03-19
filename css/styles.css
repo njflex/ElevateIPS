@@ -105,6 +105,10 @@ nav a.current {
 
 /*footer styles*/
 
+/*mobile styles*/
+@media only screen and (max-width:480px) {
+  
+}
 
 /* USe if needed 
 .layout {
