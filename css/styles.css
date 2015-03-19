@@ -78,6 +78,31 @@ header a:hover {
   color: white;
 }
 
+/*nav styles*/
+#mainNav {
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+#mainNav li {
+  float: left;
+}
+
+#mainNav a {
+  text-transform: uppercase;
+  display: block;
+  color: rgb(76, 67, 65);
+  border: none;
+}
+
+#mainNav a:hover {
+  color: rgb(123, 121, 143);
+}
+
+#mainNav a.current {
+  color: rgb(123, 121, 143);
+  cursor: default;
+
 
 /* USe if needed 
 .layout {
