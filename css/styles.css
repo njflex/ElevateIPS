@@ -108,10 +108,11 @@ nav a.current {
 /*mobile styles*/
 @media only screen and (max-width:480px) {
 
-/*disable text sizing on orientation change*/
+
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
   -webkit-text-size-adjust:none;
 }
+
 body {
   width: 90%;
   margin: 0 auto;
@@ -119,7 +120,52 @@ body {
   max-width: 480px;
 }
 
+/*header styles*/
+header {
+  height: 70px;
 }
+
+header h1 {
+  font-size: 2em;
+  padding-left: 55px;
+  line-height: 70px;
+  width: 190px;
+  margin: 0 auto;
+  background: url() no-repeat left center;
+}
+
+header h2 {
+  display: none;
+}
+
+/*nav styles*/
+nav {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+nav li {
+  margin-right: 5%;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  font-size: .9em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+nav a em {
+  display: none;
+}
+}
+
+
+
 
 /* USe if needed 
 .layout {
