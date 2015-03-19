@@ -53,6 +53,31 @@ nav ul {
   list-style: none;
 }
 
+/*header styles*/
+header {
+  background: rgb(100, 98, 102);
+  width: 100%;
+  padding-top: 1px;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+header h1 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
+  border: none;
+  color: white;
+}
+header a:hover {
+  border: none;
+  color: white;
+}
+
 
 /* USe if needed 
 .layout {
